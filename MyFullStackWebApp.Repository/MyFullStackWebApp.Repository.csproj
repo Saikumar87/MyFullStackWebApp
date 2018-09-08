@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyFullStackWebApp.Business.Entities\MyFullStackWebApp.Business.Entities.csproj" />
+    <ProjectReference Include="..\MyFullStackWebApp.DataStore.Operations\MyFullStackWebApp.DataStore.Operations.csproj" />
+  </ItemGroup>
+
+</Project>
