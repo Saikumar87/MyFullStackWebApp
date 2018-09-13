@@ -32,7 +32,7 @@ namespace UnitTests
             string username = "abc0@abc.com";
             List<UserLogin> ullist = (List<UserLogin>)ul.ReadFromStore();
             var selecteduserlogin = ullist.Where(x => x.EmailAddress == username).FirstOrDefault();
-            Assert.IsTrue(Helper.isValidPassword("Qazwsx@3211", selecteduserlogin.SecurityStamp, selecteduserlogin.PasswordHash));
+            Assert.IsTrue(Helper.isValidPassword("Qazwsx@321", selecteduserlogin.SecurityStamp, selecteduserlogin.PasswordHash));
             
         }
 
